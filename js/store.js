@@ -122,6 +122,7 @@ export function setConfig(next) {
 
 export async function bootstrapGist(seed) {
   if (!cfg.token) throw new Error('Token requis pour créer un gist');
+  if (!state && !seed) throw new Error('Données non chargées, recharge la page');
   const id = await gist.createGist(cfg.token, migrate(state || seed));
   await setConfig({ gistId: id, token: cfg.token });
   return id;

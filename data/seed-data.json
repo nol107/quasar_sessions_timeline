@@ -1,0 +1,482 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-29T00:00:00Z",
+  "project": {
+    "name": "QUASAR SESSIONS EP.2",
+    "milestones": [
+      {
+        "id": "m-release",
+        "label": "Sortie EP",
+        "date": "2026-11-20"
+      },
+      {
+        "id": "m-party",
+        "label": "Release party — Le Ciney",
+        "date": "2026-11-21"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "clips",
+      "label": "Clips",
+      "color": "#DD7AA0"
+    },
+    {
+      "id": "prod",
+      "label": "Prod musicale",
+      "color": "#6FA35F"
+    },
+    {
+      "id": "release-party",
+      "label": "Release party — Le Ciney",
+      "color": "#F08A24"
+    },
+    {
+      "id": "promo",
+      "label": "Médias / Promo",
+      "color": "#EFCE3C"
+    },
+    {
+      "id": "admin",
+      "label": "Administratif",
+      "color": "#A9A9B0"
+    }
+  ],
+  "people": [
+    "Hamza",
+    "Louis",
+    "Malcolm",
+    "Nelson"
+  ],
+  "tasks": [
+    {
+      "id": "t001",
+      "category": "clips",
+      "title": "Envoyer la confirmation ferme au clippeur (1500€ / 6 clips)",
+      "priority": 1,
+      "deadline": "2026-09-15",
+      "status": "done",
+      "owners": [
+        "Hamza"
+      ],
+      "notes": "Kamal valide pour 1500 + défraiement",
+      "resources": []
+    },
+    {
+      "id": "t002",
+      "category": "clips",
+      "title": "Préparer la DA clips (moodboard, univers visuel, références)",
+      "priority": 2,
+      "deadline": "2026-09-25",
+      "status": "done",
+      "owners": [
+        "Hamza",
+        "Nelson"
+      ],
+      "notes": "Socle commun des 6 clips + idée pour les 6",
+      "resources": [
+        {
+          "label": "Ressource",
+          "url": "https://docs.google.com/presentation/d/18hh_tmPF5VMCcpiCuhplJwQPfRp-MN6OVZZYHipewQ0/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "t003",
+      "category": "clips",
+      "title": "Valider base commune avec Kamal",
+      "priority": 2,
+      "deadline": "2026-10-05",
+      "status": "todo",
+      "owners": [
+        "Hamza",
+        "Nelson"
+      ],
+      "notes": "Kamal peaufine et valide base commune",
+      "resources": [
+        {
+          "label": "Ressource",
+          "url": "https://docs.google.com/presentation/d/18hh_tmPF5VMCcpiCuhplJwQPfRp-MN6OVZZYHipewQ0/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "t004",
+      "category": "clips",
+      "title": "Valider les 6 clips avec les 6 artistes ( Swan&Jaleb / Dee Zen / Noema / Aissa / Deep / Jos Art)",
+      "priority": 3,
+      "deadline": "2026-10-10",
+      "status": "todo",
+      "owners": [],
+      "notes": "Chaque clip validé",
+      "resources": [
+        {
+          "label": "Ressource",
+          "url": "https://docs.google.com/presentation/d/18hh_tmPF5VMCcpiCuhplJwQPfRp-MN6OVZZYHipewQ0/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "t005",
+      "category": "clips",
+      "title": "Fixer les 2 WE de tournage",
+      "priority": 4,
+      "deadline": "2026-10-15",
+      "status": "todo",
+      "owners": [],
+      "notes": "Dépend des dispos artistes + clippeur",
+      "resources": []
+    },
+    {
+      "id": "t006",
+      "category": "clips",
+      "title": "Lister les besoins logistiques par jour de tournage",
+      "priority": 4,
+      "deadline": "2026-10-15",
+      "status": "todo",
+      "owners": [],
+      "notes": "Lieux, matériel, figurants/invités",
+      "resources": []
+    },
+    {
+      "id": "t007",
+      "category": "clips",
+      "title": "Décider du calendrier de sortie des 6 clips",
+      "priority": 5,
+      "deadline": "2026-10-25",
+      "status": "todo",
+      "owners": [],
+      "notes": "Avant/pendant/après le 20/11 ?",
+      "resources": []
+    },
+    {
+      "id": "t008",
+      "category": "prod",
+      "title": "Enregistrer le 6e son - Deep",
+      "priority": 1,
+      "deadline": "2026-10-10",
+      "status": "todo",
+      "owners": [],
+      "notes": "Caler date avec Deep asap",
+      "resources": [
+        {
+          "label": "Ressource",
+          "url": "https://on.soundcloud.com/k35wD0pMbPjnd7zarL"
+        }
+      ]
+    },
+    {
+      "id": "t009",
+      "category": "prod",
+      "title": "Mixage/mastering des 6 titres - état des 6 sons",
+      "priority": 2,
+      "deadline": "2026-10-25",
+      "status": "todo",
+      "owners": [
+        "Louis"
+      ],
+      "notes": "Se caler avec Jon",
+      "resources": [
+        {
+          "label": "Ressource",
+          "url": "https://docs.google.com/spreadsheets/d/1NJdhvZ2-EoQpY3eR3DuN9tUNipgawkl_WVZpkmAwxdY/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "t010",
+      "category": "prod",
+      "title": "Valide distribution avec triple double",
+      "priority": 1,
+      "deadline": "2026-10-05",
+      "status": "todo",
+      "owners": [
+        "Malcolm"
+      ],
+      "notes": "Distribution validée d'ici le 05/10. Envoi de tous les sons au plus tard fin octobre (23/10 max)",
+      "resources": []
+    },
+    {
+      "id": "t011",
+      "category": "release-party",
+      "title": "Signer la convention du lieu",
+      "priority": 1,
+      "deadline": "2026-09-18",
+      "status": "done",
+      "owners": [
+        "Nelson"
+      ],
+      "notes": "Convention avec le lieu signée",
+      "resources": []
+    },
+    {
+      "id": "t012",
+      "category": "release-party",
+      "title": "Affiche / flyer release party",
+      "priority": 2,
+      "deadline": "2026-10-10",
+      "status": "todo",
+      "owners": [],
+      "notes": "",
+      "resources": []
+    },
+    {
+      "id": "t013",
+      "category": "release-party",
+      "title": "Ouvrir la billetterie Shotgun",
+      "priority": 2,
+      "deadline": "2026-10-10",
+      "status": "todo",
+      "owners": [
+        "Nelson"
+      ],
+      "notes": "A update une fois pochette + affiche + roster final",
+      "resources": [
+        {
+          "label": "Ressource",
+          "url": "https://shotgun.live/events/quasar-session-vol-2-release-party"
+        }
+      ]
+    },
+    {
+      "id": "t014",
+      "category": "release-party",
+      "title": "Valider la disponibilité de la salle cinéma",
+      "priority": 3,
+      "deadline": "2026-10-16",
+      "status": "doing",
+      "owners": [
+        "Louis"
+      ],
+      "notes": "David : \"Hello ! La forme ? En fait cette question précise est en stand-by vu que la direction est actuellement en train de passer des entretiens pour le recrutement du programmateur cinema, d'ici début octobre il y aura un interlocuteur avec qui voir cela, mais pour le moment tout le monde se renvoie la balle et ne sais pas me dire, désolé 😆\"",
+      "resources": []
+    },
+    {
+      "id": "t015",
+      "category": "release-party",
+      "title": "Caler line-up et timing des sets",
+      "priority": 3,
+      "deadline": "2026-10-16",
+      "status": "todo",
+      "owners": [],
+      "notes": "",
+      "resources": []
+    },
+    {
+      "id": "t016",
+      "category": "release-party",
+      "title": "Valider DJ pour les artistes + ingé son",
+      "priority": 3,
+      "deadline": "2026-10-16",
+      "status": "todo",
+      "owners": [],
+      "notes": "Proposer à Khalil - pote d'oza peut potentiellement faire la partie ingé son si besoin (checker si y'en a pas déjà un sur place)",
+      "resources": []
+    },
+    {
+      "id": "t017",
+      "category": "release-party",
+      "title": "Se caler sur la technique",
+      "priority": 3,
+      "deadline": "2026-10-16",
+      "status": "todo",
+      "owners": [],
+      "notes": "Principalement vérifier autotune, nombre de micros, et platines. Fiche technique dispo en ressource",
+      "resources": [
+        {
+          "label": "Ressource",
+          "url": "https://drive.google.com/file/d/1ud7OiksBlcr7wc5D_K3h7lCHXQxTB7Yo/view"
+        }
+      ]
+    },
+    {
+      "id": "t018",
+      "category": "release-party",
+      "title": "Préparer le planning des répétitions au studio",
+      "priority": 4,
+      "deadline": "2026-10-29",
+      "status": "todo",
+      "owners": [],
+      "notes": "A caler avec le DJ choisi - comme avec Khalil pour la première release party",
+      "resources": []
+    },
+    {
+      "id": "t019",
+      "category": "release-party",
+      "title": "Réunir tous les sons des passages artistes dans les bonnes versions",
+      "priority": 4,
+      "deadline": "2026-10-29",
+      "status": "todo",
+      "owners": [],
+      "notes": "A reunir sur le drive",
+      "resources": []
+    },
+    {
+      "id": "t020",
+      "category": "promo",
+      "title": "Faire pochette",
+      "priority": 2,
+      "deadline": "2026-10-10",
+      "status": "todo",
+      "owners": [
+        "Nelson"
+      ],
+      "notes": "Pièce simple avec bases des 6 clips",
+      "resources": []
+    },
+    {
+      "id": "t021",
+      "category": "promo",
+      "title": "Faire vidéo teaser",
+      "priority": 2,
+      "deadline": "2026-10-10",
+      "status": "todo",
+      "owners": [
+        "Nelson"
+      ],
+      "notes": "Utiliser moment de la photo pochette pour faire une vidéo de teasing",
+      "resources": []
+    },
+    {
+      "id": "t022",
+      "category": "promo",
+      "title": "Outreach influenceurs/médias release party",
+      "priority": 1,
+      "deadline": "2026-10-05",
+      "status": "todo",
+      "owners": [
+        "Nelson"
+      ],
+      "notes": "préparer gsheet de démarchage + définir stratégie",
+      "resources": [
+        {
+          "label": "Ressource",
+          "url": "https://docs.google.com/spreadsheets/d/1QM-gzfiNnIdsh2627szMYqSYY0ueuWU1P3bJxu683A4/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "t023",
+      "category": "promo",
+      "title": "Couverture release par carabine",
+      "priority": 3,
+      "deadline": "2026-10-29",
+      "status": "todo",
+      "owners": [
+        "Nelson"
+      ],
+      "notes": "Carabine valide dans l'idée / revenir vers eux quand on a les infos finales (potentiellement 300 euros)",
+      "resources": []
+    },
+    {
+      "id": "t024",
+      "category": "promo",
+      "title": "Calendrier de teasing réseaux (16/10 → 20/11)",
+      "priority": 2,
+      "deadline": "2026-10-16",
+      "status": "todo",
+      "owners": [],
+      "notes": "Préparer releases insta + tiktok + youtube shorts + posts collab avec medias/influenceurs",
+      "resources": []
+    },
+    {
+      "id": "t025",
+      "category": "admin",
+      "title": "Vérifier les contrats de split master des 6 titres",
+      "priority": 1,
+      "deadline": "2026-09-15",
+      "status": "done",
+      "owners": [
+        "Hamza"
+      ],
+      "notes": "Galère signé - tout est signé",
+      "resources": []
+    },
+    {
+      "id": "t026",
+      "category": "admin",
+      "title": "Faire un point sur l'état actuel de la SPPF",
+      "priority": 2,
+      "deadline": "2026-09-25",
+      "status": "done",
+      "owners": [
+        "Nelson"
+      ],
+      "notes": "Confirmation arrivée - A/R arrive bientôt avec identifiants de connexion",
+      "resources": []
+    },
+    {
+      "id": "t027",
+      "category": "admin",
+      "title": "Paiement SPPF",
+      "priority": 2,
+      "deadline": "2026-09-25",
+      "status": "done",
+      "owners": [
+        "Nelson"
+      ],
+      "notes": "Paiement adhésion fait (153 euros)",
+      "resources": []
+    },
+    {
+      "id": "t028",
+      "category": "admin",
+      "title": "Ajouter les nouveaux titres à la matrice SPPF",
+      "priority": 3,
+      "deadline": "2026-10-15",
+      "status": "todo",
+      "owners": [
+        "Nelson"
+      ],
+      "notes": "",
+      "resources": []
+    },
+    {
+      "id": "t029",
+      "category": "admin",
+      "title": "Contact BMAT pour coverage des sons via distro",
+      "priority": 3,
+      "deadline": "2026-10-15",
+      "status": "todo",
+      "owners": [
+        "Nelson"
+      ],
+      "notes": "",
+      "resources": []
+    },
+    {
+      "id": "t030",
+      "category": "admin",
+      "title": "Avancer l'inscription SACEM avec Fensh",
+      "priority": 2,
+      "deadline": "2026-12-15",
+      "status": "doing",
+      "owners": [
+        "Nelson",
+        "Hamza"
+      ],
+      "notes": "Les dépôts passent par la société de Fensh, qui nous les transférera une fois notre société créée",
+      "resources": []
+    },
+    {
+      "id": "t031",
+      "category": "admin",
+      "title": "Faire dépôt SACEM via Fensh",
+      "priority": 1,
+      "deadline": "2026-10-15",
+      "status": "doing",
+      "owners": [
+        "Nelson",
+        "Hamza"
+      ],
+      "notes": "En cours en testant avec Galère, splits validés, plus qu'à signer. Dépôt via la société de Fensh, transfert vers nous une fois notre société créée",
+      "resources": [
+        {
+          "label": "Ressource",
+          "url": "https://docs.google.com/spreadsheets/d/13ZtK-BWEqG52Ipsx-0Hx25R-MlY-HWE29Si7c0M-kcU/edit?gid=0#gid=0"
+        }
+      ]
+    }
+  ]
+}
