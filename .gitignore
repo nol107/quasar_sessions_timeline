@@ -1,0 +1,12 @@
+# Outils locaux
+.claude/
+
+# Sources / brouillons non destinés au site
+EP.2 to do list.xlsx
+PLAN.md
+seed-data.json
+
+# Divers
+node_modules/
+.DS_Store
+Thumbs.db
