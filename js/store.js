@@ -10,7 +10,7 @@ const clone = o => JSON.parse(JSON.stringify(o));
 
 // Gist ID en dur, VOLONTAIREMENT : le site n'est connu que de l'équipe et les données ne sont pas critiques.
 // Un ID seul donne uniquement la lecture ; l'écriture exige toujours le token, saisi dans Réglages (jamais commité).
-const DEFAULT_GIST_ID = '';
+const DEFAULT_GIST_ID = 'dd41d291b2a4514409ca1f67b8505c36';
 
 let state, base = null, dirty = false;
 let cfg = { token: '', ...rd(K.cfg, {}) };
